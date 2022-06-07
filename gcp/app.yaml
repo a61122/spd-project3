@@ -6,3 +6,6 @@ handlers:
 - url: /
   static_files: www/index.html
   upload: www/index.html
+  
+- url: /action_page.php(.*)
+  script: www/action_page.php
